@@ -1,0 +1,25 @@
+
+public class Person {
+	
+ String Name;
+ int Age;
+ String Nationality;
+ int DOB;
+ 
+ 
+ public void Eat() {
+	System.out.println(Name+"is Eating now.");
+	
+ }
+public void Sleep() {
+		System.out.println(Name+"is Sleeping now.");
+}
+
+public void Walk() {
+	System.out.println(Name+"is Walking now.");
+		
+		
+ }
+}
+	
+
