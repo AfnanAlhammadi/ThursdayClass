@@ -1,0 +1,47 @@
+
+	
+
+
+public class TrinagleLoop {
+
+	public void tringle (int L) {
+
+	   for (int i=0;i<L;i++) {// For the lines
+	     for (int j=0;j<L-i;j++) { // for the first triangle with spaces
+	    	 System.out.print (" ");
+	     }
+	     
+	for (int j=i;j>0;j--) { // for the reverse characters on each line
+		System.out.print (j+1);
+	}
+
+	for (int j=0;j<=i;j++) { // for the characters of the last triangle
+	     System.out.print (j+1);
+
+	}
+	
+	System.out.println();
+	
+	
+	}
+	
+	}
+
+	}
+
+
+
+///////////
+
+
+public class Driver {
+
+
+	public static void main(String[] args) {
+
+		
+		TrinagleLoop L = new TrinagleLoop();
+		L.tringle(5);
+	}
+
+}
