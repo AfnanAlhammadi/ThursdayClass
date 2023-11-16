@@ -1,0 +1,57 @@
+
+public class Student extends Person {
+
+	
+		// TODO Auto-generated constructor stub
+
+
+	String ID;
+	String Grade;
+	String Major;
+	
+
+	public void Study() {
+		System.out.println(Name+" is Study  now.");
+	}
+	
+	public void Coding() {
+		System.out.println(Name+" is Coding now.");
+	}
+	
+	public void Project() {
+		System.out.println(Name+" is do the Project now.");
+		
+		
+		
+	}
+
+	public Student(String name, int age, String nationality, String dOB, String string, String string2, String major) {
+		super(name, age, nationality, dOB);
+		ID = string;
+		Grade = string2;
+		Major = major;
+	}
+}
+
+
+//////////
+
+
+
+public class Driver {
+	
+	
+	public static void main(String[] args) {
+
+
+		
+		
+		Student s1 = new Student("Afnan" , 25 ,"UAE", "22/11/1998", "H00349803" , "99" , "IT");
+	
+		s1.Coding();
+		s1.Project();
+		s1.Study();
+		
+	}
+
+}
